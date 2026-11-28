@@ -1,26 +1,185 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Fade Flex Studios website project by Davis Kwame Baako.">
-<title>Fade Flex Studios Website Project | Davis Kwame Baako</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css"><script src="https://unpkg.com/lucide@latest"></script></head>
-<body><div class="site-shell">
-<header class="navbar"><a class="brand" href="index.html"><span class="brand-mark">DK</span><span>DAVIS<span class="brand-light"> KWAME BAAKO</span></span></a>
-<button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><i data-lucide="menu"></i></button>
-<nav class="nav-links"><a href="index.html">Home</a><a href="index.html#about">About</a><a class="active" href="index.html#work">Selected work</a><a href="resume.html">Resume</a><a class="nav-cta" href="index.html#contact">Let's talk <i data-lucide="arrow-up-right"></i></a></nav></header>
-<main><section class="case-hero section-wrap">
-<a class="back-link" href="index.html#work"><i data-lucide="arrow-left"></i> BACK TO SELECTED WORK</a>
-<div class="case-eyebrow">BARBERING & GROOMING · LIVE WEBSITE PROJECT</div><h1>Fade<br>Flex Studios<span class="gradient-text">.</span></h1>
-<p class="case-lead">A premium barbering website for a studio in Accra, presenting its identity, founder story, grooming experience and booking pathway.</p><div class="case-tags"><span>Website design</span><span>Website development</span><span>Brand presentation</span><span>Responsive experience</span></div>
-<a class="button button-primary case-live" href="https://premiumkwame.github.io/fadeflexstudios/" target="_blank" rel="noreferrer">Visit live website <i data-lucide="arrow-up-right"></i></a>
-<div class="case-art project-case-art barber-case-art"><div class="project-case-heading">CRAFT. FAITH. PRECISION.</div><div class="project-case-sub">BARBERING & GROOMING · GHANA</div></div></section>
-<section class="case-content section-wrap">
-<div class="case-overview"><div><span class="section-kicker">THE PROJECT</span><h2>A digital home for the brand.</h2></div><div><p>The live website introduces Fade Flex Studios as a premium barbering studio in Accra. Its challenge is to communicate the studio's personality and service experience while making it easy for visitors to learn about the business and take the next step.</p><p>The website experience brings together brand messaging, founder information, service highlights, location and contact details, and calls to book a session.</p></div></div>
-<div class="case-challenge"><span class="section-kicker">01 / PROJECT FOCUS</span><h2>Make the brand experience clear and memorable.</h2><p>This project is presented as a website design and development project. Its current portfolio story focuses on the live website and the customer-facing experience visible on the site.</p></div>
-<div class="case-work"><span class="section-kicker">02 / WEBSITE EXPERIENCE</span><div class="case-work-grid project-feature-grid"><article><span>01</span><h3>Brand introduction</h3><p>A clear opening message positions the studio around premium barbering, style and precision.</p></article><article><span>02</span><h3>Founder story</h3><p>An about section introduces the founder and communicates the values behind the studio.</p></article><article><span>03</span><h3>Service experience</h3><p>The experience section explains the studio's approach to craft, products and customer care.</p></article><article><span>04</span><h3>Booking & contact</h3><p>Calls to book, contact information, location and opening hours help visitors plan a visit.</p></article></div></div>
-<div class="case-challenge case-outcome"><span class="section-kicker">03 / CURRENT SCOPE</span><h2>A live website, ready for its next phase.</h2><p>The website is live and can be explored using the link above. Search Console, Google Analytics, email capture and other marketing integrations are not being claimed for this project at this stage. They can be added to this case study if and when you implement and verify them.</p><div class="outcome-note"><i data-lucide="info"></i><span>Keep this case study updated as the project evolves. Add real screenshots, your specific responsibilities and verified performance data when available.</span></div></div>
-<div class="case-details"><div><span class="section-kicker">PROJECT TYPE</span><strong>Website design & development</strong></div><div><span class="section-kicker">BRAND / INDUSTRY</span><strong>BARBERING & GROOMING</strong></div><div><span class="section-kicker">LIVE WEBSITE</span><a href="https://premiumkwame.github.io/fadeflexstudios/" target="_blank" rel="noreferrer">premiumkwame.github.io/fadeflexstudios/ ↗</a></div></div>
-</section><section class="case-next section-wrap"><span class="section-kicker">HAVE A ROLE OR PROJECT IN MIND?</span><h2>Let's make something<br><span class="gradient-text">count.</span></h2><a class="button button-primary" href="index.html#contact">Get in touch <i data-lucide="arrow-up-right"></i></a></section></main>
-<footer class="footer section-wrap"><a class="brand" href="index.html"><span class="brand-mark">DK</span><span>DAVIS<span class="brand-light"> KWAME BAAKO</span></span></a><span>© <span id="year"></span> Davis Kwame Baako</span><a href="index.html">BACK TO PORTFOLIO ↑</a></footer></div><script src="js/main.js"></script></body></html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MO Fades website project by Davis Kwame Baako.">
+  <title>MO Fades Website Project | Davis Kwame Baako</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+
+  <!-- Site styles and icons -->
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div class="site-shell">
+    <!-- Main navigation -->
+    <header class="navbar">
+      <a class="brand" href="index.html">
+        <img
+          class="header-logo"
+          src="assets/avatar.jpg"
+          alt="Davis Kwame Baako logo"
+          onerror="this.remove()"
+        >
+        <span>DAVIS<span class="brand-light"> KWAME BAAKO</span></span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <i data-lucide="menu"></i>
+      </button>
+
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="index.html#about">About</a>
+        <a class="active" href="index.html#work">Selected work</a>
+        <a href="resume.html">Resume</a>
+        <a class="nav-cta" href="index.html#contact">Let's talk <i data-lucide="arrow-up-right"></i></a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Case-study introduction and image slot -->
+      <section class="case-hero section-wrap">
+        <a class="back-link" href="index.html#work">
+          <i data-lucide="arrow-left"></i> BACK TO SELECTED WORK
+        </a>
+
+        <div class="case-eyebrow">BARBERING & GROOMING · LIVE WEBSITE PROJECT</div>
+        <h1><span class="gradient-text">MO</span><br>Fades.</h1>
+        <p class="case-lead">A premium barbering website for a grooming studio in Accra, presenting its identity, founder story, grooming experience and booking pathway.</p>
+
+        <div class="case-tags">
+          <span>Website design</span>
+          <span>Website development</span>
+          <span>Brand presentation</span>
+          <span>Responsive experience</span>
+        </div>
+
+        <a class="button button-primary case-live" href="https://premiumkwame.github.io/MOFades/" target="_blank" rel="noreferrer">
+          Visit live website <i data-lucide="arrow-up-right"></i>
+        </a>
+
+        <!-- Replace this image src with a MO Fades project photo. -->
+        <div class="case-art project-case-art">
+          <img
+            class="case-art-image"
+            src="assets/mofadesbg.jpeg"
+            alt="MO Fades case-study image"
+            onerror="this.remove()">
+          <div class="project-case-copy">
+            <div class="project-case-heading">CRAFT. <f>FAITH.</f> PRECISION.</div>
+            <div class="project-case-sub">BARBERING & GROOMING · GHANA</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Project overview -->
+      <section class="case-content section-wrap">
+        <div class="case-overview">
+          <div>
+            <span class="section-kicker">THE PROJECT</span>
+            <h2>A digital home for the brand.</h2>
+          </div>
+          <div>
+            <p>The live website introduces MO Fades as a premium barbering studio in Accra. Its challenge is to communicate the studio's personality and service experience while making it easy for visitors to learn about the business and take the next step.</p>
+            <p>The website experience brings together brand messaging, founder information, service highlights, location and contact details, and calls to book a session.</p>
+          </div>
+        </div>
+
+        <!-- Project focus -->
+        <div class="case-challenge">
+          <span class="section-kicker">01 / PROJECT FOCUS</span>
+          <h2>Make the brand experience clear and memorable.</h2>
+          <p>This project is presented as a website design and development project. Its current portfolio story focuses on the live website and the customer-facing experience visible on the site.</p>
+        </div>
+
+        <!-- Website experience -->
+        <div class="case-work">
+          <span class="section-kicker">02 / WEBSITE EXPERIENCE</span>
+          <div class="case-work-grid project-feature-grid">
+            <article>
+              <span>01</span>
+              <h3>Brand introduction</h3>
+              <p>A clear opening message positions the studio around premium barbering, style and precision.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Founder story</h3>
+              <p>An about section introduces the founder and communicates the values behind the studio.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Service experience</h3>
+              <p>The experience section explains the studio's approach to craft, products and customer care.</p>
+            </article>
+            <article>
+              <span>04</span>
+              <h3>Booking & contact</h3>
+              <p>Calander style booking, contact information, location and opening hours help visitors plan a visit.</p>
+            </article>
+          </div>
+        </div>
+
+        <!-- Current scope -->
+        <div class="case-challenge case-outcome">
+          <span class="section-kicker">03 / CURRENT SCOPE</span>
+          <h2>A live website, ready for its next phase.</h2>
+          <p>The website is live and can be explored using the link above. Search Console, Google Analytics, email capture and other marketing integrations are not being claimed for this project at this stage. They can be added to this case study if and when you implement and verify them.</p>
+          <div class="outcome-note">
+            <i data-lucide="info"></i>
+            <span>Keep this case study updated as the project evolves. Add real screenshots, your specific responsibilities and verified performance data when available.</span>
+          </div>
+        </div>
+
+        <!-- Project details -->
+        <div class="case-details">
+          <div>
+            <span class="section-kicker">PROJECT TYPE</span>
+            <strong>Website design & development</strong>
+          </div>
+          <div>
+            <span class="section-kicker">BRAND / INDUSTRY</span>
+            <strong>BARBERING & GROOMING</strong>
+          </div>
+          <div>
+            <span class="section-kicker">LIVE WEBSITE</span>
+            <a href="https://premiumkwame.github.io/MOFades/" target="_blank" rel="noreferrer">premiumkwame.github.io/MOFades/ ↗</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Next step -->
+      <section class="case-next section-wrap">
+        <span class="section-kicker">HAVE A ROLE OR PROJECT IN MIND?</span>
+        <h2>Let's make something<br><span class="gradient-text">count.</span></h2>
+        <a class="button button-primary" href="index.html#contact">
+          Get in touch <i data-lucide="arrow-up-right"></i>
+        </a>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer section-wrap">
+      <a class="brand" href="index.html">
+        <img
+          class="header-logo"
+          src="assets/avatar.jpg"
+          alt="Davis Kwame Baako logo"
+          onerror="this.remove()"
+        >
+        <span>DAVIS<span class="brand-light"> KWAME BAAKO</span></span>
+      </a>
+      <span>© <span id="year"></span> Davis Kwame Baako</span>
+      <a href="index.html">BACK TO PORTFOLIO ↑</a>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
